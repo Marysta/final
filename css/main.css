@@ -470,21 +470,28 @@ Media Queries Style
   }
 
   /*-- Video Background --*/
+  
   .header-container h1 {
     font-size: 42px;
-    color: black;
+    color: white;
   }
   .header-container h6 {
     font-size: 16px;
-    color: black;
+    color: white;
   }
   .header-container .btn {
     margin-top: 20px;
-    color: black;
-    border-color: black;
+    
   }
-  .header-container .owl-buttons {
-    display: none;
+  .header-container {
+    background-image: url("../img/videocargoship1.png");
+    -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
   }
 }
 
